@@ -4,7 +4,7 @@ This project documents the setup of a **self-hosted RustDesk server (hbbs + hbbr
 
 ---
 
-## 📌 Features
+## Features
 
 - Self-hosted RustDesk server running in Docker (hbbs + hbbr).
 - Secure custom configuration (`RustDesk2.toml`) distributed with the installer.
@@ -14,7 +14,7 @@ This project documents the setup of a **self-hosted RustDesk server (hbbs + hbbr
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Server**: Ubuntu 22.04 LTS on AWS EC2
 - **Containers**: Docker & Docker Compose
@@ -24,7 +24,7 @@ This project documents the setup of a **self-hosted RustDesk server (hbbs + hbbr
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 See [`Project Structure`](./) for an overview of the folders:
 - `server/` → Docker setup for hbbs/hbbr.
@@ -33,7 +33,7 @@ See [`Project Structure`](./) for an overview of the folders:
 
 ---
 
-## 🚀 Deployment Steps
+## Deployment Steps
 
 ### 1. Server Setup
 1. Provision an **Ubuntu VPS** (tested on AWS EC2).
@@ -61,9 +61,8 @@ See [`Project Structure`](./) for an overview of the folders:
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 
-*(Add your own captures in `/docs/` folder with the following names)*
 
 1. **Server running in Docker** → `01_server_running.png`  
 2. **Inno Setup script ready** → `02_inno_setup.png`  
@@ -73,7 +72,7 @@ See [`Project Structure`](./) for an overview of the folders:
 
 ---
 
-## 📜 License
+## License
 
 MIT License – feel free to use, modify, and share.
 
